@@ -1,0 +1,18 @@
+<h2> check your details</h2>
+<div *ngFor="let b of allBookings">
+    <table>
+        <tr>
+                {{b.name}}
+                <br>
+                {{b.mobileNum}} 
+                <br>
+                 {{b.checkIn}}
+                 <br>
+                {{b.checkOut}}
+                <br>
+               {{b.noOfAdults}}
+               <br>
+               {{b.noOfChildren}}                     
+        </tr>
+    </table>
+</div>

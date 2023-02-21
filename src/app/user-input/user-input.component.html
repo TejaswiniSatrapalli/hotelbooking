@@ -1,0 +1,47 @@
+<table style="background-color: rgb(178, 181, 182);border: solid 2px; float: left;">
+
+    <tr>
+        <td> Enter Name </td>
+       <td> <input type="text" #name/> </td>
+    </tr>
+    <tr>
+        <td> Enter  CheckIn </td>
+       <td> <input type="date" #checkIn/> </td>
+ </tr>
+
+    <tr>
+        <td> Enter  CheckOut </td>
+        <td> <input type="date" #checkOut/> </td>
+  </tr>
+
+    <tr>
+        <td> Enter Number of Adults</td>
+        <td> <input type="text" #noOfAdults/> </td>
+ </tr>
+ 
+    <tr>
+        <td> Enter Number of Children </td>
+        <td> <input type="text" #noOfChildren/> </td>
+  </tr>
+  
+  
+  <tr>
+       <td> Enter  Mobile Number </td>
+       <td> <input type="text" #mobileNum/> </td>
+  </tr>
+
+  <tr>
+        
+        <td>  <input type="button"
+            (click)="confirmBooking(name.value, checkIn.value, checkOut.value,noOfAdults.value,noOfChildren.value,mobileNum.value)"
+            value="Confirm Booking" />
+      
+           </td>
+
+ </tr>
+</table>
+
+
+
+
+
